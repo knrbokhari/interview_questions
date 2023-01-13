@@ -476,6 +476,39 @@ All APIs of Node.js library are asynchronous that is non-blocking. It essentiall
 </details>
 
 ### Express
+
+#### What is expressjs?
+
+<details><summary><b>Answer:</b></summary>
+<p>
+Express is a minimal and flexible Node.js web application framework that provides a robust set of features for web and mobile applications.
+</p>
+</details>
+
+#### how express works?
+
+<details><summary><b>Answer:</b></summary>
+<p>
+Express provides methods to specify what function is called for a particular HTTP verb ( GET, POST, SET, etc.) and URL pattern ("Route"), and methods to specify what template ("view") engine is used, where template files are located, and what template to use to render a response.
+</p>
+</details>
+
+#### What is Middleware in Express.js
+
+<details><summary><b>Answer:</b></summary>
+<p>
+Middleware is a function that is invoked by the Express routing layer before the final request handler.
+</p>
+</details>
+
+#### What is the HTTP module?
+<details><summary><b>Answer:</b></summary>
+<p>
+The HTTP module creates an HTTP server that listens to server ports and then gives back the response to the client.
+</p>
+</details>
+
+
 ### MongoDB
 
 <!-- #### What is a Closure in JavaScript? How does it work?
