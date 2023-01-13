@@ -7,13 +7,6 @@
 - [Express](#Express)
 - [MongoDB](#MongoDB)
 
-<!-- ![Power](https://imgLink.png) -->
-<!-- 
-| 1                             | 2                | 3                                                                     |
-|-------------------------------|:----------------:|----------------------------------------------------------------------:|
-| 1                             | 2                | 3                                                                     | 
-| 1                             | 2                | 3                                                                     | -->
-
 ### JavaScript
 
 #### What is javascript?
@@ -24,14 +17,13 @@
 JavaScript is a single-threaded, scripting language that enables us to create dynamically updating content, control multimedia, animate images, and pretty much everything else. JavaScript is used both on the client and server sides, allowing us to make web pages interactive.
 
 </p>
-</details>
 
-<details><summary><b>Answer Banglai:</b></summary>
 <p>
 
 জাভাস্ক্রিপ্ট হল একটি single-threaded, scripting language যা আমাদেরকে dynamically content আপডেট করতে, মাল্টিমিডিয়া নিয়ন্ত্রণ করতে, ছবিগুলিকে অ্যানিমেট করতে এবং আরও অনেক কিছু করতে সক্ষম করে৷ জাভাস্ক্রিপ্ট ক্লায়েন্ট এবং সার্ভার উভয় দিকেই ব্যবহৃত হয়, যা আমাদের ওয়েব  page গুলিকে ইন্টারেক্টিভ করতে দেয়।
 
 </p>
+
 </details>
 
 #### How .js file executed on the browser ?
@@ -581,7 +573,7 @@ Mongoose is an Object Data Modeling library for MongoDB and Node.js. It manages 
 </p>
 </details>
 
-#### 
+<!-- #### 
 <details><summary><b>Answer:</b></summary>
 <p>
 
@@ -621,4 +613,4 @@ Mongoose is an Object Data Modeling library for MongoDB and Node.js. It manages 
 <p>
 
 </p>
-</details>
+</details> -->
