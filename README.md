@@ -394,9 +394,87 @@ By using this Hook, you tell React that your component needs to do something aft
 </p>
 </details>
 
-
-
 ### Nodejs
+
+#### What is Nodejs?
+
+<details><summary><b>Answer:</b></summary>
+<p>
+NodeJS is a cross-platform and open-source Javascript runtime environment that allows the javascript to be run on the server side. Nodejs allows Javascript code to run outside of the browser. Nodejs comes with a lot of modules and is mostly used in web development. 
+</p>
+</details>
+
+#### What is the use of Node.JS?
+
+<details><summary><b>Answer:</b></summary>
+<p>
+Node.JS is used primarily for non-blocking and event-driven servers, because of its single-threaded nature. It is used for traditional websites as well as back-end API services and was designed with real-time, push-based architectures in mind.
+</p>
+</details>
+
+#### how nodejs program lifecycle works?
+
+<details><summary><b>Answer:</b></summary>
+<p>
+ In order to understand its lifecycle you must be familiar with the event loop. Event loops are something that makes your task very fast and also it perform multitasking. It allows Node.js to perform non-blocking I/O operations. When you run your node file using node app.js then the script starts executing. It will be parsed by the parser into machine language that simply means all the functions and variables get registered in a memory location. After parsing the code our program reaches the point where it will not exit and will run an infinite no. of times which is possible all because of the event loop. Once the event loop has started executing and it will run as long as event listeners are registered.
+</p>
+</details>
+
+#### Node vs javascript?
+
+<details><summary><b>Answer:</b></summary>
+<p>
+
+| Node                                                | javascript                                                                           |
+|-----------------------------------------------------|--------------------------------------------------------------------------------------|
+| NodeJS is a Javascript runtime environment.         | Javascript is a programming language that is used for writing scripts on the website.| 
+| NodeJS help javascript to run outside of browsers.  | Javascript can only be run in the browsers.                                          |
+| node is used on the server side.                    | Javascript is used on the client-side.                                               |
+
+</p>
+</details>
+
+#### Nodejs single-threaded or multi-threaded?
+
+<details><summary><b>Answer:</b></summary>
+<p>
+A Node.js application runs on a single thread and the event loop also runs on the same thread. we can say Node.js is single-threaded but the catch is that there are some libraries in Node.js that are not single-threaded.
+</p>
+</details>
+
+#### Where and why should you not use NodeJS?
+
+<details><summary><b>Answer:</b></summary>
+<p>
+NodeJS should NOT be used where computations are CPU intensive. Eg: Data Analytics Server, Image Processing Servers, Video Processing Servers, etc. NodeJS is meant for highly I/O-bound operations which does not require heavy CPU-intensive operation/tasks.
+</p>
+</details>
+
+#### What do you understand by callback, in NodeJS?
+
+<details><summary><b>Answer:</b></summary>
+<p>
+A callback is a function that is to be executed after another function has finished executing  or called after a task is finished. It is the asynchronous equivalent of a function. All APIs of Node are written in such a way that they support callbacks.
+</p>
+</details>
+
+#### What is Callback Hell?
+
+<details><summary><b>Answer:</b></summary>
+<p>
+The asynchronous function requires callbacks as a return parameter. When multiple asynchronous functions are chained together then a callback hell situation comes up.
+</p>
+</details>
+
+#### What do you mean by Asynchronous API
+
+<details><summary><b>Answer:</b></summary>
+<p>
+All APIs of Node.js library are asynchronous that is non-blocking. It essentially means a Node.js-based server never waits for an API to return data. The server moves to next API after calling it and a notification mechanism of Events of Node.js helps the server to get a response from the previous API call.
+
+</p>
+</details>
+
 ### Express
 ### MongoDB
 
