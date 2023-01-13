@@ -289,6 +289,113 @@ API is Application Programming Interface. API allows two applications to talk to
 </details>
 
 ### React
+
+#### What are reactjs?
+
+<details><summary><b>Answer:</b></summary>
+<p>
+React is a free and open-source front-end JavaScript library, ReactJS is used primarily for building user interfaces, especially for one-page applications. React is a free and open-source front-end JavaScript library for building user interfaces based on UI components.
+</p>
+</details>
+
+####  What is Virtual dom?
+
+<details><summary><b>Answer:</b></summary>
+<p>
+The Virtual DOM is the lightweight version of the Real DOM that React retains in memory.
+Updating the virtual DOM is comparatively faster than updating the Real DOM. A virtual DOM object has the same properties as a real DOM object, but it lacks the real thing's power to directly change what's on the screen. Manipulating the DOM is slow. Manipulating the virtual DOM is much faster because nothing gets drawn onscreen.
+
+</p>
+</details>
+
+#### How does React work?
+
+<details><summary><b>Answer:</b></summary>
+<p>
+React creates a virtual DOM. When the state changes in a component it firstly runs a "diffing" algorithm, which identifies what has changed in the virtual DOM. The second step is reconciliation, which updates the DOM with diff results.
+</p>
+</details>
+
+
+#### Tell us about React Component lifecycle.
+
+<details><summary><b>Answer:</b></summary>
+<p>
+A React component’s lifecycle is broadly classified into four parts:
+
+- initialization
+- mounting
+- updating, and
+- unmounting.
+
+![Power](https://media.geeksforgeeks.org/wp-content/uploads/lifecycle_reactjs.jpg)
+
+<strong> Initialization: </strong> This is the stage where the component is constructed with the given Props and default state. This is done in the constructor of a Component Class.
+
+<strong> Mounting: </strong> Mounting is the stage of rendering the JSX returned by the render method itself.
+
+<strong> Updating: </strong> Updating is the stage when the state of a component is updated and the application is repainted.
+
+<strong> Unmounting: </strong> As the name suggests Unmounting is the final step of the component lifecycle where the component is removed from the page
+
+[click here for more information](https://www.geeksforgeeks.org/reactjs-lifecycle-components/)
+
+</p>
+</details>
+
+#### Differences between props and state?
+
+<details><summary><b>Answer:</b></summary>
+<p>
+Props are used to pass data from one component to another. The state is local data storage that is local to the component only and cannot be passed to other components. A state is an object that stores the values of properties belonging to a component that could change over a period of time. 
+</p>
+</details>
+
+#### What is the purpose of useState?
+
+<details><summary><b>Answer:</b></summary>
+<p>
+useState is a Hook that allows us to have state variables in functional components. we pass the initial state to this function and it returns a variable with the current state value and another function to update this value. The useState Hook can be used to keep track of strings, numbers, booleans, arrays, objects, and any combination of these.
+</p>
+</details>
+
+#### What is a context API? How does it work?
+
+
+<details><summary><b>Answer:</b></summary>
+<p>
+The React Context API is a way for a React app to effectively produce global variables that can be passed around. This is the alternative to "prop drilling" or moving props from grandparent to child to parent, and so on. Context provides a way to pass data through the component tree without having to pass props down manually at every level.
+
+</p>
+</details>
+
+#### What is JSX? 
+
+<details><summary><b>Answer:</b></summary>
+<p>
+JSX stands for JavaScript XML. JSX allows us to write HTML elements in JavaScript and place them in the DOM without any createElement()  and/or appendChild() methods. JSX converts HTML tags into react elements.
+
+</p>
+</details>
+
+#### What is the purpose of a custom hook?
+
+<details><summary><b>Answer:</b></summary>
+<p>
+The main reason to write a custom hook is for code reusability. For example, instead of writing the same code across multiple components that use the same common stateful logic you can put that code inside a custom hook and reuse it. We can decide what it takes as arguments, and what it should return. In other words, it’s just like a normal function. Its name should always start with use so that you can tell at a glance that the rules of Hooks apply to it.
+</p>
+</details>
+
+#### What does useEffect do?
+
+<details><summary><b>Answer:</b></summary>
+<p>
+By using this Hook, you tell React that your component needs to do something after render. React will remember the function you passed (we’ll refer to it as our “effect”), and call it later after performing the DOM updates. In this effect, we set the document title, but we could also perform data fetching or call some other imperative API.
+</p>
+</details>
+
+
+
 ### Nodejs
 ### Express
 ### MongoDB
