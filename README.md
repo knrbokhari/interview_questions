@@ -511,23 +511,114 @@ The HTTP module creates an HTTP server that listens to server ports and then giv
 
 ### MongoDB
 
-<!-- #### What is a Closure in JavaScript? How does it work?
+
+#### What is MongoDB?
+<details><summary><b>Answer:</b></summary>
+<p>
+MongoDB is a source-available cross-platform document-oriented database program that is classified as a NoSQL database program. It uses JSON-like documents with optional schemas.
+</p>
+</details>
+
+#### What is the purpose of a database?
 
 <details><summary><b>Answer:</b></summary>
 <p>
-A closure is a function having access to the parent scope, even after the parent function has closed. A closure gives us access to an outer function's scope from an inner function.
-
-```
-function makeFunc() {
-  const name = 'Naeem';
-  function displayName() {
-    console.log(name);
-  }
-  return displayName;
-}
-
-const myFunc = makeFunc();
-myFunc();
-```
+ A database is a collection of information that is organized so that it can easily be accessed, managed, and updated. 
 </p>
-</details> -->
+</details>
+
+#### What is CRUD?
+<details><summary><b>Answer:</b></summary>
+<p>
+CRUD is an acronym for Create, Read, Update, and Delete. CRUD operations are basic data manipulation for databases. 
+</p>
+</details>
+
+#### Get vs post?
+<details><summary><b>Answer:</b></summary>
+<p>
+GET is used for viewing something, without changing it, while POST is used for changing something.  For example, a search page should use GET to get data while a form that changes your password should use POST .
+</p>
+</details>
+
+#### PUT and Patch
+<details><summary><b>Answer:</b></summary>
+<p>
+PUT is a method of modifying resources where the client sends data that updates the entire resource. PATCH is a method of modifying resources where the client sends partial data that is to be updated without modifying the entire data.
+</p>
+</details>
+
+#### Difference between MySQL and MongoDB?
+<details><summary><b>Answer:</b></summary>
+<p>
+
+- MySQL: It is a Relational Database Management System (RDBMS), which makes use of SQL as a standard language to handle its database. Like different relational database management systems, MySQL makes use of a table-like structure to stow data.
+
+- MongoDB: MongoDB is a NoSQL database that utilizes the JSON-like structure to stow data elements. To modify and access data in MongoDB, the programmer ought to make use of the MongoDB Query Language (MQL).
+
+
+</p>
+</details>
+
+#### What is populate in MongoDB?
+<details><summary><b>Answer:</b></summary>
+<p>
+In MongoDB, Population is the process of replacing the specified path in the document of one collection with the actual document from the other collection.
+</p>
+</details>
+
+#### What is Aggregation in MongoDB?
+<details><summary><b>Answer:</b></summary>
+<p>
+Aggregations operations process data records and return computed results. Aggregation operations group values from multiple documents together, and can perform a variety of operations on the grouped data to return a single result. MongoDB provides three ways to perform aggregation: the aggregation pipeline, the map-reduce function, and single-purpose aggregation methods and commands.
+</p>
+</details>
+
+#### what is Mongoose?
+<details><summary><b>Answer:</b></summary>
+<p>
+Mongoose is an Object Data Modeling library for MongoDB and Node.js. It manages relationships between data, provides schema validation, and is used to translate between objects in code and the representation of those objects in MongoDB. No, I heard it but I never use it for my projects.
+</p>
+</details>
+
+#### 
+<details><summary><b>Answer:</b></summary>
+<p>
+
+</p>
+</details>
+
+#### 
+<details><summary><b>Answer:</b></summary>
+<p>
+
+</p>
+</details>
+
+#### 
+<details><summary><b>Answer:</b></summary>
+<p>
+
+</p>
+</details>
+
+#### 
+<details><summary><b>Answer:</b></summary>
+<p>
+
+</p>
+</details>
+
+#### 
+<details><summary><b>Answer:</b></summary>
+<p>
+
+</p>
+</details>
+
+#### 
+<details><summary><b>Answer:</b></summary>
+<p>
+
+</p>
+</details>
